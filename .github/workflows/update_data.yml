@@ -1,0 +1,30 @@
+name: 베네종목 데이터 업데이트
+
+on:
+  schedule:
+    - cron: "0 0 * * 1-5"
+    - cron: "0 2 * * 1-5"
+    - cron: "0 3 * * 1-5"
+    - cron: "0 6 * * 1-5"
+    - cron: "0 8 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 데이터 수집
+        run: python fetch_data.py
+      - name: 데이터.json 커밋
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add 데이터.json
+          git diff --staged --quiet || git commit -m "데이터 업데이트: $(date +'%Y-%m-%d %H:%M') KST"
+          git push
