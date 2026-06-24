@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>베네종목</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#f5f5f5;color:#111;font-family:ui-sans-serif,system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;min-height:100vh;padding:14px}
+  .wrap{max-width:460px;margin:0 auto}
+  h1{font-size:18px;font-weight:800;margin-bottom:12px}
+  h1 .b{color:#2563eb}
+  .searchbar{display:flex;gap:8px;margin-bottom:8px}
+  .searchbar input{flex:1;padding:12px 14px;font-size:16px;border:1px solid #ddd;border-radius:10px;background:#fff;outline:none}
+  .searchbar input:focus{border-color:#2563eb}
+  .searchbar button{padding:0 18px;font-size:15px;font-weight:700;color:#fff;background:#2563eb;border:0;border-radius:10px;cursor:pointer}
+  .hint{font-size:12px;color:#999;margin:0 2px 14px}
+  .card{background:#fff;border-radius:12px;padding:14px 16px;margin-bottom:10px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+  .card h2{font-size:13px;font-weight:800;color:#2563eb;margin-bottom:10px}
+  .name-row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+  .name-row .nm{font-size:20px;font-weight:800}
+  .name-row .cd{font-size:12px;color:#aaa;font-family:ui-monospace,Menlo,monospace}
+  .price-row{margin-top:6px;font-size:16px}
+  .price-row .px{font-weight:800;font-family:ui-monospace,Menlo,monospace}
+  .up{color:#d11a2a}.down{color:#1769d1}
+  .kv{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid #f0f0f0;font-size:14px}
+  .kv:last-child{border-bottom:0}
+  .kv .k{color:#555}.kv .v{font-weight:700;font-family:ui-monospace,Menlo,monospace}
+  .desc{font-size:12px;color:#888;margin-top:8px;line-height:1.55}
+  .flow .row{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-bottom:1px solid #f0f0f0}
+  .flow .row:last-child{border-bottom:0}
+  .flow .who{font-size:15px;font-weight:800}
+  .flow .streak{font-size:12px;color:#666;margin-top:2px}
+  .flow .val{font-size:14px;text-align:right;font-family:ui-monospace,Menlo,monospace;font-weight:700}
+  .muted{color:#999;font-size:13px}
+  .naverlink{display:inline-block;margin-top:8px;font-size:13px;color:#2563eb;text-decoration:none;font-weight:600}
+  .updated{font-size:11px;color:#aaa;margin-top:4px}
+  .loading{text-align:center;color:#999;padding:24px;font-size:14px}
+  .disclaimer{font-size:11px;color:#aaa;text-align:center;margin-top:14px;line-height:1.5}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{text-align:left;padding:6px 0;color:#555;font-weight:600}
+  th:not(:first-child){text-align:right;padding:6px 4px}
+  td{padding:6px 0;color:#333}
+  td:not(:first-child){text-align:right;padding:6px 4px;font-weight:700}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>베네<span class="b">종목</span></h1>
+  <div class="searchbar">
+    <input id="code" inputmode="numeric" placeholder="종목코드 6자리 (예: 005010)"/>
+    <button id="go">조회</button>
+  </div>
+  <div class="hint">코스피·코스닥 6자리 코드 (예: 휴스틸 005010, 한온시스템 018880)</div>
+  <div id="result"></div>
+  <div class="disclaimer">정보 제공용입니다. 투자 판단과 책임은 본인에게 있습니다.</div>
+</div>
+<script>
+  const DATA_URL = "./데이터.json";
+  function num(v){ if(v==null) return null; const n=parseFloat(String(v).replace(/[,+%]/g,"")); return isNaN(n)?null:n; }
+  function fmt(v){ return v==null?"—":Math.round(v).toLocaleString("ko-KR"); }
+  function render(h){ document.getElementById("result").innerHTML=h; }
+  function fmtDate(bizdate){
+    if(!bizdate||bizdate.length<8) return "";
+    return bizdate.slice(4,6)+"/"+bizdate.slice(6,8);
+  }
+
+  // 현재가 실시간 직접 호출 (polling 주소는 CORS 허용 가능)
+  async function getRealtimePrice(code){
+    const urls=[
+      "https://polling.finance.naver.com/api/realtime/domestic/stock/"+code,
+      "https://api.stock.naver.com/stock/"+code+"/basic",
+    ];
+    for(const url of urls){
+      try{
+        const r=await fetch(url,{cache:"no-store"});
+        if(!r.ok) continue;
+        const j=await r.json();
+        let price=null,rate=null,up=null;
+        (function walk(o){
+          if(!o||typeof o!=="object") return;
+          if(price==null&&o.closePrice!=null) price=num(o.closePrice);
+          if(rate==null&&o.fluctuationsRatio!=null) rate=num(o.fluctuationsRatio);
+          if(up==null&&o.compareToPreviousPrice&&o.compareToPreviousPrice.code){
+            const c=String(o.compareToPreviousPrice.code);
+            up=(c==="1"||c==="2")?true:((c==="4"||c==="5")?false:null);
+          }
+          for(const k in o) walk(o[k]);
+        })(j);
+        if(price!=null) return {price,rate,up,realtime:true};
+      }catch(e){}
+    }
+    return null;
+  }
+
+  function infoVal(infos,label){
+    if(!Array.isArray(infos)) return null;
+    const hit=infos.find(it=>(it.key||"").replace(/\s/g,"").includes(label.replace(/\s/g,"")));
+    return hit?hit.value:null;
+  }
+  function infoByCode(infos,codes){
+    if(!Array.isArray(infos)) return null;
+    const hit=infos.find(it=>codes.some(c=>(it.code||"").toLowerCase()===c.toLowerCase()));
+    return hit?hit.value:null;
+  }
+  function streak(arr,key){
+    const s=arr.map(d=>num(d[key])).filter(v=>v!=null);
+    if(!s.length) return {latest:null,st:0};
+    const sign0=s[0]>0?1:(s[0]<0?-1:0);
+    let c=0; if(sign0!==0){for(const v of s){const sv=v>0?1:(v<0?-1:0);if(sv===sign0)c++;else break;}}
+    return {latest:s[0],st:sign0*c};
+  }
+  function flowRow(label,info){
+    if(info.latest==null) return "";
+    const buy=info.latest>0,sell=info.latest<0;
+    const cls=buy?"up":(sell?"down":"");
+    const dir=buy?"순매수":(sell?"순매도":"보합");
+    const stTxt=info.st!==0?(Math.abs(info.st)+"일 연속 "+(info.st>0?"순매수":"순매도")):"혼조";
+    return '<div class="row"><div><div class="who">'+label+'</div><div class="streak">'+stTxt+'</div></div>'
+      +'<div class="val '+cls+'">'+(buy?"+":(sell?"−":""))+fmt(Math.abs(info.latest))+' 주<div class="streak '+cls+'">'+dir+'</div></div></div>';
+  }
+
+  async function lookup(code){
+    render('<div class="loading">⏳ 불러오는 중...</div>');
+    const naverPage="https://m.stock.naver.com/domestic/stock/"+code+"/total";
+
+    // data.json + 실시간 현재가 동시에 시도
+    const [dataResult, rt] = await Promise.all([
+      fetch(DATA_URL+"?t="+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null),
+      getRealtimePrice(code)
+    ]);
+
+    const stockData=dataResult&&dataResult.stocks&&dataResult.stocks[code];
+    const updatedAt=dataResult&&dataResult.updated?dataResult.updated:null;
+
+    if(!stockData){
+      render('<div class="card"><div class="muted">이 종목은 아직 데이터에 없어요.<br>아래에서 직접 확인하거나 종목 추가를 요청하세요.</div>'
+        +'<a class="naverlink" href="'+naverPage+'" target="_blank" rel="noopener">네이버 금융에서 보기 →</a></div>');
+      return;
+    }
+
+    const {integ,trend,annual}=stockData;
+    const infos=(integ&&integ.totalInfos)||[];
+    const bizdate=Array.isArray(trend)&&trend[0]?fmtDate(trend[0].bizdate):"";
+
+    // 현재가: 실시간 우선, 없으면 data.json 마지막값
+    let price=null,rate=null,up=null,isRealtime=false;
+    if(rt){ price=rt.price; rate=rt.rate; up=rt.up; isRealtime=true; }
+    else if(Array.isArray(trend)&&trend.length){
+      price=num(trend[0].closePrice);
+      const chg=num(trend[0].compareToPreviousClosePrice);
+      const c=trend[0].compareToPreviousPrice&&trend[0].compareToPreviousPrice.code;
+      up=(c==="1"||c==="2")?true:((c==="4"||c==="5")?false:(chg>0));
+      if(price!=null&&chg!=null){const prev=price-chg;if(prev)rate=chg/prev*100;}
+    }
+
+    let html="";
+
+    // 종목명/현재가
+    const name=(integ&&integ.stockName)||(Array.isArray(trend)&&trend[0]&&trend[0].stockName)||code;
+    html+='<div class="card"><div class="name-row"><span class="nm">'+name+'</span><span class="cd">'+code+'</span></div>';
+    if(price!=null){
+      const cls=up?"up":(up===false?"down":"");
+      const sign=up?"+":(up===false?"−":"");
+      html+='<div class="price-row">현재가 <span class="px">'+fmt(price)+'</span>';
+      if(rate!=null) html+=' <span class="'+cls+'">'+sign+Math.abs(rate).toFixed(2)+'%</span>';
+      html+='</div>';
+      html+='<div class="updated">'+(isRealtime?'실시간 시세':(bizdate+' 종가 기준'))+(updatedAt?' · 데이터: '+updatedAt:'')+'</div>';
+    }
+    html+='</div>';
+
+    // 핵심 지표
+    const cap=infoVal(infos,"시총"),hi52=infoVal(infos,"52주 최고"),lo52=infoVal(infos,"52주 최저"),vol=infoVal(infos,"거래량");
+    if(cap||hi52||lo52||vol){
+      html+='<div class="card"><h2>핵심 지표</h2>'
+        +(cap?'<div class="kv"><span class="k">시가총액</span><span class="v">'+cap+'</span></div>':'')
+        +(hi52?'<div class="kv"><span class="k">52주 최고</span><span class="v">'+hi52+'</span></div>':'')
+        +(lo52?'<div class="kv"><span class="k">52주 최저</span><span class="v">'+lo52+'</span></div>':'')
+        +(vol?'<div class="kv"><span class="k">거래량</span><span class="v">'+vol+'</span></div>':'')
+        +'</div>';
+    }
+
+    // PER/PBR
+    const per=infoByCode(infos,["per"]),pbr=infoByCode(infos,["pbr"]);
+    const perDisplay=per?per:'N/A <span style="font-size:11px;color:#999;font-weight:400">(적자로 계산불가)</span>';
+    html+='<div class="card"><h2>밸류에이션 (PER · PBR)</h2>'
+      +'<div class="kv"><span class="k">PER (주가수익비율)</span><span class="v">'+perDisplay+'</span></div>'
+      +'<div class="kv"><span class="k">PBR (주가순자산비율)</span><span class="v">'+(pbr||"—")+'</span></div>'
+      +'<div class="desc">• PER = 주가 ÷ 주당순이익. 같은 업종에서 낮을수록 저평가 경향.<br>• PBR = 주가 ÷ 주당순자산. 1보다 낮으면 자산 대비 저평가.</div></div>';
+
+    // 수급
+    html+='<div class="card"><h2>수급 현황'+(bizdate?' ('+bizdate+' 확정)':'')+'</h2>';
+    if(Array.isArray(trend)&&trend.length){
+      html+='<div class="flow">'
+        +flowRow("외국인",streak(trend,"foreignerPureBuyQuant"))
+        +flowRow("기관",streak(trend,"organPureBuyQuant"))
+        +flowRow("개인",streak(trend,"individualPureBuyQuant"))
+        +'</div>';
+    }else html+='<div class="muted">수급 데이터 없음</div>';
+    html+='</div>';
+
+    // 연간 손익
+    html+='<div class="card"><h2>연간 손익 현황</h2>';
+    if(annual&&annual.financeInfo&&annual.financeInfo.trTitleList&&annual.financeInfo.rowList){
+      const years=annual.financeInfo.trTitleList.filter(t=>t.isConsensus==="N").slice(-3);
+      const opRow=annual.financeInfo.rowList.find(r=>r.title==="영업이익");
+      const niRow=annual.financeInfo.rowList.find(r=>r.title==="당기순이익");
+      if(years.length&&(opRow||niRow)){
+        html+='<table><tr><th>구분</th>'+years.map(y=>'<th>'+y.title.replace('.','년').replace('.','')+' </th>').join('')+'</tr>';
+        [["영업이익",opRow],["당기순이익",niRow]].forEach(([label,row])=>{
+          if(!row) return;
+          html+='<tr><td>'+label+'</td>';
+          years.forEach(y=>{
+            const col=row.columns[y.key];
+            const v=col?col.value:"-";
+            const isMinus=col&&col.cx==="minus";
+            const isPlus=v!=="-"&&!isMinus&&v!=="0";
+            const cls=isMinus?"down":(isPlus?"up":"");
+            html+='<td class="'+cls+'">'+(v==="-"?"—":(isMinus?"적자 "+v:"흑자 "+v))+'</td>';
+          });
+          html+='</tr>';
+        });
+        html+='</table><div class="desc" style="margin-top:8px">단위: 억원</div>';
+      }
+    }else html+='<div class="muted">재무 데이터 없음</div>';
+    html+='</div>';
+
+    // 회사 소개
+    html+='<div class="card"><h2>회사 소개</h2>';
+    const corp=annual&&annual.corporationSummary;
+    if(corp&&(corp.comment1||corp.comment2||corp.comment3)){
+      if(corp.comment1) html+='<div class="desc" style="margin-bottom:6px">'+corp.comment1+'</div>';
+      if(corp.comment2) html+='<div class="desc" style="margin-bottom:6px">'+corp.comment2+'</div>';
+      if(corp.comment3) html+='<div class="desc">'+corp.comment3+'</div>';
+    }else html+='<div class="muted">회사 소개 정보 없음</div>';
+    html+='<a class="naverlink" href="'+naverPage+'" target="_blank" rel="noopener">네이버 금융에서 자세히 보기 →</a>';
+    html+='</div>';
+
+    render(html);
+  }
+
+  document.getElementById("go").addEventListener("click",()=>{
+    const c=document.getElementById("code").value.replace(/\D/g,"");
+    if(c.length===6) lookup(c);
+    else render('<div class="card"><div class="muted">종목코드 6자리를 정확히 입력해 주세요.</div></div>');
+  });
+  document.getElementById("code").addEventListener("keydown",e=>{if(e.key==="Enter") document.getElementById("go").click();});
+</script>
+</body>
+</html>
