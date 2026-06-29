@@ -182,7 +182,7 @@
 
     // PER/PBR
     const per=infoByCode(infos,["per"]),pbr=infoByCode(infos,["pbr"]);
-    const perDisplay=per?per:'N/A <span style="font-size:11px;color:#999;font-weight:400">(적자로 계산불가)</span>';
+    const perDisplay=per?per:'<span style="font-size:11px;color:#999;font-weight:400">(적자로 계산불가)</span>';
     html+='<div class="card"><h2>밸류에이션 (PER · PBR)</h2>'
       +'<div class="kv"><span class="k">PER (주가수익비율)</span><span class="v">'+perDisplay+'</span></div>'
       +'<div class="kv"><span class="k">PBR (주가순자산비율)</span><span class="v">'+(pbr||"—")+'</span></div>'
