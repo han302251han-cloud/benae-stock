@@ -196,6 +196,22 @@
         +flowRow("기관",streak(trend,"organPureBuyQuant"))
         +flowRow("개인",streak(trend,"individualPureBuyQuant"))
         +'</div>';
+      // ── 관심 신호: 외국인·기관 6일 연속 순매수 + 당기순이익 흑자 ──
+      const fStreak=streak(trend,"foreignerPureBuyQuant").st;
+      const oStreak=streak(trend,"organPureBuyQuant").st;
+      let niPlus=false;
+      try{
+        const nr=annual.financeInfo.rowList.find(r=>r.title==="당기순이익");
+        const ys=annual.financeInfo.trTitleList.filter(t=>t.isConsensus==="N");
+        const lastY=ys[ys.length-1];
+        const lastCol=nr.columns[lastY.key];
+        niPlus=lastCol && lastCol.cx!=="minus" && lastCol.value!=="-" && lastCol.value!=="0";
+      }catch(e){}
+      if(fStreak>=6 && oStreak>=6 && niPlus){
+        html+='<div class="card" style="background:#fff7e6;border:1px solid #ffd591">'
+          +'<div style="font-size:14px;font-weight:800;color:#d46b08">★ 살펴볼 만한 신호</div>'
+          +'<div class="desc" style="margin-top:6px;color:#874d00">외국인·기관이 모두 6일 이상 연속 순매수했고, 당기순이익도 흑자예요. 아이템(사업)이 좋다면 관심 가져볼 만합니다.<br>단, 이건 참고 신호일 뿐 매수 권유가 아니에요. 차트(일목·MACD)와 밸류에이션을 꼭 함께 확인하세요.</div></div>';
+      }
     }else html+='<div class="muted">수급 데이터 없음</div>';
     html+='</div>';
 
