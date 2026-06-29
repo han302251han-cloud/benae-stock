@@ -8,7 +8,7 @@ import json, datetime, urllib.request
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
 # 조회할 종목 목록
-STOCKS = ["005010", "018880", "458250"]
+STOCKS = ["005010", "018880", "458250", "252670", "007660"]
 
 def fetch(url):
     req = urllib.request.Request(url, headers=UA)
