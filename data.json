@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18 15:56",
+  "updated": "2026-08-18 17:21",
   "stocks": {
     "005010": {
       "integ": {
@@ -46,7 +46,7 @@
           {
             "code": "accumulatedTradingVolume",
             "key": "거래량",
-            "value": "416,974"
+            "value": "417,363"
           },
           {
             "code": "accumulatedTradingValue",
@@ -1013,7 +1013,7 @@
           {
             "code": "accumulatedTradingVolume",
             "key": "거래량",
-            "value": "3,862,996"
+            "value": "3,863,108"
           },
           {
             "code": "accumulatedTradingValue",
@@ -1177,7 +1177,7 @@
             "nm": "한온시스템",
             "bnm": "DS투자증권",
             "tit": "이익 개선, 현금 창출 경로 지속",
-            "rcnt": "5009",
+            "rcnt": "5018",
             "wdt": "20260812"
           },
           {
@@ -1186,7 +1186,7 @@
             "nm": "한온시스템",
             "bnm": "키움증권",
             "tit": "[NDR 후기] 3개월 만에 EPS 컨센서스 33% 상향",
-            "rcnt": "4486",
+            "rcnt": "4491",
             "wdt": "20260806"
           },
           {
@@ -1195,7 +1195,7 @@
             "nm": "한온시스템",
             "bnm": "한화투자증권",
             "tit": "유럽 BEV 중심 성장 견조, 북미 회복은 관건",
-            "rcnt": "8445",
+            "rcnt": "8449",
             "wdt": "20260803"
           },
           {
@@ -1204,7 +1204,7 @@
             "nm": "한온시스템",
             "bnm": "교보증권",
             "tit": "2Q26 Review: 분명한 체질 개선",
-            "rcnt": "6921",
+            "rcnt": "6924",
             "wdt": "20260803"
           },
           {
@@ -1213,7 +1213,7 @@
             "nm": "한온시스템",
             "bnm": "하나증권",
             "tit": "개선된 이익, 정체된 성장, 줄어든 재투자",
-            "rcnt": "6494",
+            "rcnt": "6496",
             "wdt": "20260803"
           }
         ],
@@ -2666,12 +2666,12 @@
           {
             "code": "accumulatedTradingVolume",
             "key": "거래량",
-            "value": "8,055,405,445"
+            "value": "8,058,326,761"
           },
           {
             "code": "accumulatedTradingValue",
             "key": "대금",
-            "value": "6,020억"
+            "value": "6,023억"
           },
           {
             "code": "highPriceOf52Weeks",
@@ -2766,7 +2766,8 @@
           "totalFee": 0.64,
           "returnRate1m": -24.0,
           "returnRate3m": -26.92,
-          "returnRate1y": -94.04
+          "returnRate1y": -94.04,
+          "marketValueRaw": "642238000000"
         },
         "dealTrendInfos": [
           {
@@ -3294,12 +3295,12 @@
           {
             "code": "accumulatedTradingVolume",
             "key": "거래량",
-            "value": "2,249,167"
+            "value": "2,272,935"
           },
           {
             "code": "accumulatedTradingValue",
             "key": "대금",
-            "value": "2,320억"
+            "value": "2,344억"
           },
           {
             "code": "marketValue",
@@ -3460,7 +3461,7 @@
             "nm": "이수페타시스",
             "bnm": "SK증권",
             "tit": "Corp Day: “쇼티지 지속” 추가 증설 전망",
-            "rcnt": "8229",
+            "rcnt": "8251",
             "wdt": "20260724"
           },
           {
@@ -3469,7 +3470,7 @@
             "nm": "이수페타시스",
             "bnm": "유안타증권",
             "tit": "2Q26 Pre: 수요가 캐파를 앞서는 중",
-            "rcnt": "10729",
+            "rcnt": "10739",
             "wdt": "20260708"
           },
           {
@@ -3478,7 +3479,7 @@
             "nm": "이수페타시스",
             "bnm": "DS투자증권",
             "tit": "1Q26 Re: 묵묵하게 열일 중",
-            "rcnt": "25967",
+            "rcnt": "25970",
             "wdt": "20260519"
           },
           {
@@ -3487,7 +3488,7 @@
             "nm": "이수페타시스",
             "bnm": "하나증권",
             "tit": "하반기 믹스개선 본격화",
-            "rcnt": "14655",
+            "rcnt": "14657",
             "wdt": "20260518"
           },
           {
@@ -3496,7 +3497,7 @@
             "nm": "이수페타시스",
             "bnm": "유안타증권",
             "tit": "수요가 캐파를 부르고, 캐파가 실적을 만든다",
-            "rcnt": "10697",
+            "rcnt": "10698",
             "wdt": "20260518"
           }
         ],
