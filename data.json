@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11 20:05",
+  "updated": "2026-09-11 21:24",
   "stocks": {
     "005010": {
       "integ": {
@@ -1183,7 +1183,7 @@
             "nm": "한온시스템",
             "bnm": "신한투자증권",
             "tit": "조금씩 달라지고 있는 이익의 퀄리티",
-            "rcnt": "11899",
+            "rcnt": "11901",
             "wdt": "20260828"
           },
           {
@@ -1192,7 +1192,7 @@
             "nm": "한온시스템",
             "bnm": "DS투자증권",
             "tit": "이익 개선, 현금 창출 경로 지속",
-            "rcnt": "7014",
+            "rcnt": "7016",
             "wdt": "20260812"
           },
           {
@@ -1201,7 +1201,7 @@
             "nm": "한온시스템",
             "bnm": "키움증권",
             "tit": "[NDR 후기] 3개월 만에 EPS 컨센서스 33% 상향",
-            "rcnt": "5798",
+            "rcnt": "5800",
             "wdt": "20260806"
           },
           {
@@ -1210,7 +1210,7 @@
             "nm": "한온시스템",
             "bnm": "한화투자증권",
             "tit": "유럽 BEV 중심 성장 견조, 북미 회복은 관건",
-            "rcnt": "9396",
+            "rcnt": "9397",
             "wdt": "20260803"
           },
           {
@@ -1219,7 +1219,7 @@
             "nm": "한온시스템",
             "bnm": "교보증권",
             "tit": "2Q26 Review: 분명한 체질 개선",
-            "rcnt": "7813",
+            "rcnt": "7814",
             "wdt": "20260803"
           }
         ],
@@ -3485,7 +3485,7 @@
             "nm": "이수페타시스",
             "bnm": "유안타증권",
             "tit": "캐파와 믹스, 이제는 P 사이클까지",
-            "rcnt": "11881",
+            "rcnt": "11883",
             "wdt": "20260825"
           },
           {
@@ -3494,7 +3494,7 @@
             "nm": "이수페타시스",
             "bnm": "하나증권",
             "tit": "Capa 확대, 판가 인상과 믹스 개선의 콜라보",
-            "rcnt": "10983",
+            "rcnt": "10984",
             "wdt": "20260819"
           },
           {
@@ -3503,7 +3503,7 @@
             "nm": "이수페타시스",
             "bnm": "키움증권",
             "tit": "디레이팅 요소 해소, 다시 펴는 날개",
-            "rcnt": "8786",
+            "rcnt": "8787",
             "wdt": "20260819"
           },
           {
@@ -3512,7 +3512,7 @@
             "nm": "이수페타시스",
             "bnm": "SK증권",
             "tit": "Corp Day: “쇼티지 지속” 추가 증설 전망",
-            "rcnt": "9824",
+            "rcnt": "9825",
             "wdt": "20260724"
           },
           {
@@ -3521,7 +3521,7 @@
             "nm": "이수페타시스",
             "bnm": "유안타증권",
             "tit": "2Q26 Pre: 수요가 캐파를 앞서는 중",
-            "rcnt": "11941",
+            "rcnt": "11942",
             "wdt": "20260708"
           }
         ],
@@ -3557,10 +3557,10 @@
               "closePriceSendTime": "1630",
               "nameKor": "코스피",
               "nameEng": "KOSPI",
-              "name": "KOSPI",
               "stockType": "domestic",
               "nationCode": "KOR",
-              "nationName": "대한민국"
+              "nationName": "대한민국",
+              "name": "KOSPI"
             },
             "endUrl": "https://m.stock.naver.com/domestic/stock/005930",
             "newPcUrl": "https://stock.naver.com/domestic/stock/005930"
@@ -3595,10 +3595,10 @@
               "closePriceSendTime": "1630",
               "nameKor": "코스피",
               "nameEng": "KOSPI",
-              "name": "KOSPI",
               "stockType": "domestic",
               "nationCode": "KOR",
-              "nationName": "대한민국"
+              "nationName": "대한민국",
+              "name": "KOSPI"
             },
             "endUrl": "https://m.stock.naver.com/domestic/stock/000660",
             "newPcUrl": "https://stock.naver.com/domestic/stock/000660"
@@ -3633,10 +3633,10 @@
               "closePriceSendTime": "1630",
               "nameKor": "코스피",
               "nameEng": "KOSPI",
-              "name": "KOSPI",
               "stockType": "domestic",
               "nationCode": "KOR",
-              "nationName": "대한민국"
+              "nationName": "대한민국",
+              "name": "KOSPI"
             },
             "endUrl": "https://m.stock.naver.com/domestic/stock/402340",
             "newPcUrl": "https://stock.naver.com/domestic/stock/402340"
@@ -3671,10 +3671,10 @@
               "closePriceSendTime": "1630",
               "nameKor": "코스피",
               "nameEng": "KOSPI",
-              "name": "KOSPI",
               "stockType": "domestic",
               "nationCode": "KOR",
-              "nationName": "대한민국"
+              "nationName": "대한민국",
+              "name": "KOSPI"
             },
             "endUrl": "https://m.stock.naver.com/domestic/stock/042700",
             "newPcUrl": "https://stock.naver.com/domestic/stock/042700"
@@ -3709,10 +3709,10 @@
               "closePriceSendTime": "1630",
               "nameKor": "코스닥",
               "nameEng": "KOSDAQ",
-              "name": "KOSDAQ",
               "stockType": "domestic",
               "nationCode": "KOR",
-              "nationName": "대한민국"
+              "nationName": "대한민국",
+              "name": "KOSDAQ"
             },
             "endUrl": "https://m.stock.naver.com/domestic/stock/036930",
             "newPcUrl": "https://stock.naver.com/domestic/stock/036930"
@@ -3747,10 +3747,10 @@
               "closePriceSendTime": "1630",
               "nameKor": "코스닥",
               "nameEng": "KOSDAQ",
-              "name": "KOSDAQ",
               "stockType": "domestic",
               "nationCode": "KOR",
-              "nationName": "대한민국"
+              "nationName": "대한민국",
+              "name": "KOSDAQ"
             },
             "endUrl": "https://m.stock.naver.com/domestic/stock/039030",
             "newPcUrl": "https://stock.naver.com/domestic/stock/039030"
