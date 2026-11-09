@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07 00:26",
+  "updated": "2026-11-09 13:58",
   "stocks": {
     "005010": {
       "integ": {
@@ -11,52 +11,52 @@
           {
             "code": "lastClosePrice",
             "key": "전일",
-            "value": "3,380"
+            "value": "3,260"
           },
           {
             "code": "openPrice",
             "key": "시가",
-            "value": "3,185",
+            "value": "3,260",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "3",
+              "text": "보합",
+              "name": "UNCHANGED"
             }
           },
           {
             "code": "highPrice",
             "key": "고가",
-            "value": "3,350",
+            "value": "3,385",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             }
           },
           {
             "code": "lowPrice",
             "key": "저가",
-            "value": "3,160",
+            "value": "3,260",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "3",
+              "text": "보합",
+              "name": "UNCHANGED"
             }
           },
           {
             "code": "accumulatedTradingVolume",
             "key": "거래량",
-            "value": "213,801"
+            "value": "79,881"
           },
           {
             "code": "accumulatedTradingValue",
             "key": "대금",
-            "value": "6.95억"
+            "value": "2.65억"
           },
           {
             "code": "marketValue",
             "key": "시총",
-            "value": "1,849억"
+            "value": "1,888억"
           },
           {
             "code": "foreignRate",
@@ -126,7 +126,7 @@
             "itemCode": "005010",
             "bizdate": "20261106",
             "foreignerPureBuyQuant": "+3,422",
-            "foreignerHoldRatio": "1.93%",
+            "foreignerHoldRatio": "1.92%",
             "organPureBuyQuant": "+1,633",
             "individualPureBuyQuant": "-5,455",
             "closePrice": "3,290",
@@ -213,17 +213,17 @@
             "reutersCode": "005490",
             "stockName": "POSCO홀딩스",
             "sosok": "0",
-            "closePrice": "266,500",
-            "compareToPreviousClosePrice": "-7,000",
+            "closePrice": "264,500",
+            "compareToPreviousClosePrice": "-500",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
               "name": "FALLING"
             },
-            "fluctuationsRatio": "-2.56",
+            "fluctuationsRatio": "-0.19",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "21,117,866",
+            "marketValue": "20,959,383",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -251,17 +251,17 @@
             "reutersCode": "004020",
             "stockName": "현대제철",
             "sosok": "0",
-            "closePrice": "28,300",
-            "compareToPreviousClosePrice": "-600",
+            "closePrice": "28,500",
+            "compareToPreviousClosePrice": "350",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-2.08",
+            "fluctuationsRatio": "1.24",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "3,776,515",
+            "marketValue": "3,803,204",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -289,17 +289,17 @@
             "reutersCode": "001430",
             "stockName": "세아베스틸지주",
             "sosok": "0",
-            "closePrice": "27,650",
-            "compareToPreviousClosePrice": "-100",
+            "closePrice": "27,700",
+            "compareToPreviousClosePrice": "750",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-0.36",
+            "fluctuationsRatio": "2.78",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "991,587",
+            "marketValue": "993,380",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -327,17 +327,17 @@
             "reutersCode": "016380",
             "stockName": "KG스틸",
             "sosok": "0",
-            "closePrice": "4,820",
-            "compareToPreviousClosePrice": "-110",
+            "closePrice": "4,920",
+            "compareToPreviousClosePrice": "120",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-2.23",
+            "fluctuationsRatio": "2.50",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "482,042",
+            "marketValue": "492,043",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -365,17 +365,17 @@
             "reutersCode": "058650",
             "stockName": "세아홀딩스",
             "sosok": "0",
-            "closePrice": "118,800",
-            "compareToPreviousClosePrice": "-3,200",
+            "closePrice": "119,800",
+            "compareToPreviousClosePrice": "800",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-2.62",
+            "fluctuationsRatio": "0.67",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "481,762",
+            "marketValue": "485,817",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -404,13 +404,13 @@
             "stockName": "한국철강",
             "sosok": "0",
             "closePrice": "12,900",
-            "compareToPreviousClosePrice": "-10",
+            "compareToPreviousClosePrice": "0",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "3",
+              "text": "보합",
+              "name": "UNCHANGED"
             },
-            "fluctuationsRatio": "-0.08",
+            "fluctuationsRatio": "0.00",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
             "marketValue": "470,205",
@@ -444,7 +444,7 @@
           "itemCode": "005010",
           "bizdate": "20261106",
           "foreignerPureBuyQuant": "+3,422",
-          "foreignerHoldRatio": "1.93%",
+          "foreignerHoldRatio": "1.92%",
           "organPureBuyQuant": "+1,633",
           "individualPureBuyQuant": "-5,455",
           "closePrice": "3,290",
@@ -984,32 +984,32 @@
           {
             "code": "lastClosePrice",
             "key": "전일",
-            "value": "3,370"
+            "value": "3,060"
           },
           {
             "code": "openPrice",
             "key": "시가",
-            "value": "3,120",
+            "value": "3,075",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             }
           },
           {
             "code": "highPrice",
             "key": "고가",
-            "value": "3,285",
+            "value": "3,100",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             }
           },
           {
             "code": "lowPrice",
             "key": "저가",
-            "value": "3,020",
+            "value": "2,980",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
@@ -1019,22 +1019,22 @@
           {
             "code": "accumulatedTradingVolume",
             "key": "거래량",
-            "value": "7,920,097"
+            "value": "2,872,235"
           },
           {
             "code": "accumulatedTradingValue",
             "key": "대금",
-            "value": "249억"
+            "value": "86.7억"
           },
           {
             "code": "marketValue",
             "key": "시총",
-            "value": "3조 1,916억"
+            "value": "3조 839억"
           },
           {
             "code": "foreignRate",
             "key": "외인소진율",
-            "value": "5.11%"
+            "value": "4.89%"
           },
           {
             "code": "highPriceOf52Weeks",
@@ -1061,17 +1061,17 @@
           {
             "code": "cnsPer",
             "key": "추정PER",
-            "value": "11.65배"
+            "value": "18.44배"
           },
           {
             "code": "cnsEps",
             "key": "추정EPS",
-            "value": "267원"
+            "value": "163원"
           },
           {
             "code": "pbr",
             "key": "PBR",
-            "value": "0.78배",
+            "value": "0.75배",
             "valueDesc": "2026.06."
           },
           {
@@ -1099,7 +1099,7 @@
             "itemCode": "018880",
             "bizdate": "20261106",
             "foreignerPureBuyQuant": "-2,553,156",
-            "foreignerHoldRatio": "4.87%",
+            "foreignerHoldRatio": "4.89%",
             "organPureBuyQuant": "-340,057",
             "individualPureBuyQuant": "+2,716,850",
             "closePrice": "3,110",
@@ -1178,12 +1178,21 @@
         ],
         "researches": [
           {
+            "id": 97887,
+            "cd": "018880",
+            "nm": "한온시스템",
+            "bnm": "대신증권",
+            "tit": "어제는 방어, 이제는 성장",
+            "rcnt": "455",
+            "wdt": "20261109"
+          },
+          {
             "id": 97822,
             "cd": "018880",
             "nm": "한온시스템",
             "bnm": "하나증권",
             "tit": "원가는 해냈고, 이제 수주의 차례",
-            "rcnt": "2317",
+            "rcnt": "7482",
             "wdt": "20261106"
           },
           {
@@ -1192,7 +1201,7 @@
             "nm": "한온시스템",
             "bnm": "미래에셋증권",
             "tit": "3Q26 리뷰: 비용절감 지속, 전기차 수혜주",
-            "rcnt": "1979",
+            "rcnt": "6414",
             "wdt": "20261106"
           },
           {
@@ -1201,7 +1210,7 @@
             "nm": "한온시스템",
             "bnm": "대신증권",
             "tit": "어제는 방어, 이제는 성장",
-            "rcnt": "1003",
+            "rcnt": "1740",
             "wdt": "20261106"
           },
           {
@@ -1210,16 +1219,7 @@
             "nm": "한온시스템",
             "bnm": "유진투자증권",
             "tit": "3Q26 Review: 신사업 가시화로 성장 동력 강화",
-            "rcnt": "1054",
-            "wdt": "20261106"
-          },
-          {
-            "id": 97756,
-            "cd": "018880",
-            "nm": "한온시스템",
-            "bnm": "키움증권",
-            "tit": "다 된 영업이익에 외화환산손실 뿌리기",
-            "rcnt": "1130",
+            "rcnt": "1754",
             "wdt": "20261106"
           }
         ],
@@ -1232,17 +1232,17 @@
             "reutersCode": "012330",
             "stockName": "현대모비스",
             "sosok": "0",
-            "closePrice": "353,500",
-            "compareToPreviousClosePrice": "-10,500",
+            "closePrice": "336,500",
+            "compareToPreviousClosePrice": "-12,500",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
               "name": "FALLING"
             },
-            "fluctuationsRatio": "-2.88",
+            "fluctuationsRatio": "-3.58",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "31,751,576",
+            "marketValue": "30,224,626",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -1270,17 +1270,17 @@
             "reutersCode": "161390",
             "stockName": "한국타이어앤테크놀로지",
             "sosok": "0",
-            "closePrice": "61,800",
-            "compareToPreviousClosePrice": "-2,600",
+            "closePrice": "60,300",
+            "compareToPreviousClosePrice": "-1,600",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
               "name": "FALLING"
             },
-            "fluctuationsRatio": "-4.04",
+            "fluctuationsRatio": "-2.58",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "7,655,479",
+            "marketValue": "7,469,666",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -1304,59 +1304,21 @@
           {
             "stockType": "domestic",
             "stockEndType": "stock",
-            "itemCode": "000240",
-            "reutersCode": "000240",
-            "stockName": "한국앤컴퍼니",
-            "sosok": "0",
-            "closePrice": "24,750",
-            "compareToPreviousClosePrice": "100",
-            "compareToPreviousPrice": {
-              "code": "2",
-              "text": "상승",
-              "name": "RISING"
-            },
-            "fluctuationsRatio": "0.41",
-            "accumulatedTradingVolume": "-",
-            "accumulatedTradingValue": "-",
-            "marketValue": "2,349,647",
-            "nav": "N/A",
-            "threeMonthEarningRate": "N/A",
-            "stockExchangeType": {
-              "code": "KS",
-              "zoneId": "Asia/Seoul",
-              "nationType": "KOR",
-              "delayTime": 0,
-              "startTime": "0900",
-              "endTime": "1530",
-              "closePriceSendTime": "1630",
-              "nameKor": "코스피",
-              "nameEng": "KOSPI",
-              "stockType": "domestic",
-              "nationCode": "KOR",
-              "nationName": "대한민국",
-              "name": "KOSPI"
-            },
-            "endUrl": "https://m.stock.naver.com/domestic/stock/000240",
-            "newPcUrl": "https://stock.naver.com/domestic/stock/000240"
-          },
-          {
-            "stockType": "domestic",
-            "stockEndType": "stock",
             "itemCode": "007340",
             "reutersCode": "007340",
             "stockName": "DN오토모티브",
             "sosok": "0",
-            "closePrice": "38,350",
-            "compareToPreviousClosePrice": "-1,050",
+            "closePrice": "38,200",
+            "compareToPreviousClosePrice": "-100",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
               "name": "FALLING"
             },
-            "fluctuationsRatio": "-2.66",
+            "fluctuationsRatio": "-0.26",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "2,243,891",
+            "marketValue": "2,235,115",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -1384,17 +1346,17 @@
             "reutersCode": "005850",
             "stockName": "에스엘",
             "sosok": "0",
-            "closePrice": "47,300",
-            "compareToPreviousClosePrice": "-1,650",
+            "closePrice": "46,100",
+            "compareToPreviousClosePrice": "-950",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
               "name": "FALLING"
             },
-            "fluctuationsRatio": "-3.37",
+            "fluctuationsRatio": "-2.02",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "2,197,014",
+            "marketValue": "2,141,276",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -1418,21 +1380,21 @@
           {
             "stockType": "domestic",
             "stockEndType": "stock",
-            "itemCode": "204320",
-            "reutersCode": "204320",
-            "stockName": "HL만도",
+            "itemCode": "000240",
+            "reutersCode": "000240",
+            "stockName": "한국앤컴퍼니",
             "sosok": "0",
-            "closePrice": "32,450",
-            "compareToPreviousClosePrice": "-1,400",
+            "closePrice": "22,150",
+            "compareToPreviousClosePrice": "-2,400",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
               "name": "FALLING"
             },
-            "fluctuationsRatio": "-4.14",
+            "fluctuationsRatio": "-9.78",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "1,523,758",
+            "marketValue": "2,102,815",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -1450,15 +1412,53 @@
               "nationName": "대한민국",
               "name": "KOSPI"
             },
-            "endUrl": "https://m.stock.naver.com/domestic/stock/204320",
-            "newPcUrl": "https://stock.naver.com/domestic/stock/204320"
+            "endUrl": "https://m.stock.naver.com/domestic/stock/000240",
+            "newPcUrl": "https://stock.naver.com/domestic/stock/000240"
+          },
+          {
+            "stockType": "domestic",
+            "stockEndType": "stock",
+            "itemCode": "073240",
+            "reutersCode": "073240",
+            "stockName": "금호타이어",
+            "sosok": "0",
+            "closePrice": "5,400",
+            "compareToPreviousClosePrice": "110",
+            "compareToPreviousPrice": {
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
+            },
+            "fluctuationsRatio": "2.08",
+            "accumulatedTradingVolume": "-",
+            "accumulatedTradingValue": "-",
+            "marketValue": "1,551,205",
+            "nav": "N/A",
+            "threeMonthEarningRate": "N/A",
+            "stockExchangeType": {
+              "code": "KS",
+              "zoneId": "Asia/Seoul",
+              "nationType": "KOR",
+              "delayTime": 0,
+              "startTime": "0900",
+              "endTime": "1530",
+              "closePriceSendTime": "1630",
+              "nameKor": "코스피",
+              "nameEng": "KOSPI",
+              "stockType": "domestic",
+              "nationCode": "KOR",
+              "nationName": "대한민국",
+              "name": "KOSPI"
+            },
+            "endUrl": "https://m.stock.naver.com/domestic/stock/073240",
+            "newPcUrl": "https://stock.naver.com/domestic/stock/073240"
           }
         ],
         "consensusInfo": {
           "itemCode": "018880",
-          "createDate": "2026-11-05",
-          "recommMean": "3.57",
-          "priceTargetMean": "4,858"
+          "createDate": "2026-11-06",
+          "recommMean": "3.61",
+          "priceTargetMean": "4,726"
         },
         "shareholdersMeetingInfo": null,
         "irScheduleInfo": null
@@ -1468,7 +1468,7 @@
           "itemCode": "018880",
           "bizdate": "20261106",
           "foreignerPureBuyQuant": "-2,553,156",
-          "foreignerHoldRatio": "4.87%",
+          "foreignerHoldRatio": "4.89%",
           "organPureBuyQuant": "-340,057",
           "individualPureBuyQuant": "+2,716,850",
           "closePrice": "3,110",
@@ -1661,7 +1661,7 @@
                   "cx": null
                 },
                 "202612": {
-                  "value": "112,759",
+                  "value": "111,617",
                   "cx": null
                 },
                 "202312": {
@@ -1682,7 +1682,7 @@
                   "cx": null
                 },
                 "202612": {
-                  "value": "4,324",
+                  "value": "4,356",
                   "cx": null
                 },
                 "202312": {
@@ -1703,7 +1703,7 @@
                   "cx": "minus"
                 },
                 "202612": {
-                  "value": "2,769",
+                  "value": "1,696",
                   "cx": null
                 },
                 "202312": {
@@ -1766,7 +1766,7 @@
                   "cx": null
                 },
                 "202612": {
-                  "value": "3.84",
+                  "value": "3.90",
                   "cx": null
                 },
                 "202312": {
@@ -1787,7 +1787,7 @@
                   "cx": "minus"
                 },
                 "202612": {
-                  "value": "2.46",
+                  "value": "1.52",
                   "cx": null
                 },
                 "202312": {
@@ -1808,7 +1808,7 @@
                   "cx": "minus"
                 },
                 "202612": {
-                  "value": "6.94",
+                  "value": "4.30",
                   "cx": null
                 },
                 "202312": {
@@ -1892,7 +1892,7 @@
                   "cx": "minus"
                 },
                 "202612": {
-                  "value": "267",
+                  "value": "163",
                   "cx": null
                 },
                 "202312": {
@@ -1913,7 +1913,7 @@
                   "cx": "minus"
                 },
                 "202612": {
-                  "value": "12.60",
+                  "value": "18.74",
                   "cx": null
                 },
                 "202312": {
@@ -1934,7 +1934,7 @@
                   "cx": null
                 },
                 "202612": {
-                  "value": "4,029",
+                  "value": "3,920",
                   "cx": null
                 },
                 "202312": {
@@ -1955,7 +1955,7 @@
                   "cx": null
                 },
                 "202612": {
-                  "value": "0.84",
+                  "value": "0.78",
                   "cx": null
                 },
                 "202312": {
@@ -1976,7 +1976,7 @@
                   "cx": null
                 },
                 "202612": {
-                  "value": "90",
+                  "value": "-",
                   "cx": null
                 },
                 "202312": {
@@ -2008,12 +2008,12 @@
           {
             "code": "lastClosePrice",
             "key": "전일",
-            "value": "35,020"
+            "value": "34,815"
           },
           {
             "code": "openPrice",
             "key": "시가",
-            "value": "34,800",
+            "value": "34,735",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
@@ -2023,7 +2023,7 @@
           {
             "code": "highPrice",
             "key": "고가",
-            "value": "34,875",
+            "value": "34,735",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
@@ -2033,7 +2033,7 @@
           {
             "code": "lowPrice",
             "key": "저가",
-            "value": "34,610",
+            "value": "34,495",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
@@ -2043,12 +2043,12 @@
           {
             "code": "accumulatedTradingVolume",
             "key": "거래량",
-            "value": "77,477"
+            "value": "52,104"
           },
           {
             "code": "accumulatedTradingValue",
             "key": "대금",
-            "value": "26.9억"
+            "value": "18억"
           },
           {
             "code": "highPriceOf52WeeksAdjusted",
@@ -2073,7 +2073,7 @@
           {
             "code": "oneMonthEarnRate",
             "key": "최근 1개월 수익률",
-            "value": "+11.00%",
+            "value": "+11.39%",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
@@ -2083,17 +2083,17 @@
           {
             "code": "threeMonthEarnRate",
             "key": "최근 3개월 수익률",
-            "value": "+0.23%",
+            "value": "-0.21%",
             "compareToPreviousPrice": {
-              "code": "2",
-              "text": "상승",
-              "name": "RISING"
+              "code": "5",
+              "text": "하락",
+              "name": "FALLING"
             }
           },
           {
             "code": "sixMonthEarnRate",
             "key": "최근 6개월 수익률",
-            "value": "-4.50%",
+            "value": "-5.32%",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
@@ -2103,7 +2103,7 @@
           {
             "code": "oneYearEarnRate",
             "key": "최근 1년 수익률",
-            "value": "-12.44%",
+            "value": "-11.35%",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
@@ -2113,7 +2113,7 @@
           {
             "code": "nav",
             "key": "NAV",
-            "value": "34,715.16"
+            "value": "34,712.73"
           },
           {
             "code": "fundPay",
@@ -2140,24 +2140,24 @@
         "description": "- 이 ETF는 주로 채권 관련 장외파생상품(스왑)을 투자하며, ‘“ICE BofA Long US Treasury Principal STRIPS 지수’를 비교지수로 하여 ETF 순자산가치의 변화가 비교지수를 초과하도록 운용하는 것을 목표로 합니다.<br>- 이 ETF는 초과수익 실현을 위해 장외파생상품(스왑) 및 역외 상장 ETF 등의 편입비중을 탄력적으로 조절하여 시장 상황에 적극적으로 대응함으로서 초과 수익 달성을 목표로 하며 외화자산에 대해 환헤지를 실행할 예정입니다.",
         "etfKeyIndicator": {
           "issuerName": "미래에셋자산운용",
-          "marketValue": "3,725억",
-          "dividendYieldTtm": 0.53,
-          "totalNav": "3,718억",
-          "nav": "34,753.26",
+          "marketValue": "3,670억",
+          "dividendYieldTtm": 0.54,
+          "totalNav": "3,698억",
+          "nav": "34,766.59",
           "deviationSign": "+",
-          "deviationRate": 0.77,
+          "deviationRate": 0.14,
           "totalFee": 0.15,
-          "returnRate1m": 11.0,
-          "returnRate3m": 0.23,
-          "returnRate1y": -12.44,
-          "marketValueRaw": "372450000000"
+          "returnRate1m": 11.39,
+          "returnRate3m": -0.21,
+          "returnRate1y": -11.35,
+          "marketValueRaw": "367011000000"
         },
         "dealTrendInfos": [
           {
             "itemCode": "458250",
             "bizdate": "20261106",
             "foreignerPureBuyQuant": "+24,052",
-            "foreignerHoldRatio": "0.22%",
+            "foreignerHoldRatio": "0.00%",
             "organPureBuyQuant": "-18,679",
             "individualPureBuyQuant": "-4,923",
             "closePrice": "34,815",
@@ -2244,17 +2244,17 @@
             "reutersCode": "360750",
             "stockName": "TIGER 미국S&P500",
             "sosok": "0",
-            "closePrice": "24,755",
-            "compareToPreviousClosePrice": "-775",
+            "closePrice": "24,895",
+            "compareToPreviousClosePrice": "140",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-3.04",
+            "fluctuationsRatio": "0.57",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "20,533,034",
+            "marketValue": "20,686,500",
             "nav": "0",
             "threeMonthEarningRate": "0",
             "stockExchangeType": {
@@ -2282,17 +2282,17 @@
             "reutersCode": "069500",
             "stockName": "KODEX 200",
             "sosok": "0",
-            "closePrice": "79,005",
-            "compareToPreviousClosePrice": "-5,605",
+            "closePrice": "79,900",
+            "compareToPreviousClosePrice": "895",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-6.62",
+            "fluctuationsRatio": "1.13",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "19,506,334",
+            "marketValue": "19,787,235",
             "nav": "0",
             "threeMonthEarningRate": "0",
             "stockExchangeType": {
@@ -2320,17 +2320,17 @@
             "reutersCode": "488770",
             "stockName": "KODEX 머니마켓액티브",
             "sosok": "0",
-            "closePrice": "106,085",
-            "compareToPreviousClosePrice": "25",
+            "closePrice": "106,095",
+            "compareToPreviousClosePrice": "10",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
               "name": "RISING"
             },
-            "fluctuationsRatio": "0.02",
+            "fluctuationsRatio": "0.01",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "12,427,009",
+            "marketValue": "12,405,051",
             "nav": "0",
             "threeMonthEarningRate": "0",
             "stockExchangeType": {
@@ -2358,17 +2358,17 @@
             "reutersCode": "133690",
             "stockName": "TIGER 미국나스닥100",
             "sosok": "0",
-            "closePrice": "161,300",
-            "compareToPreviousClosePrice": "-5,565",
+            "closePrice": "162,295",
+            "compareToPreviousClosePrice": "995",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-3.34",
+            "fluctuationsRatio": "0.62",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "10,934,527",
+            "marketValue": "11,018,207",
             "nav": "0",
             "threeMonthEarningRate": "0",
             "stockExchangeType": {
@@ -2396,17 +2396,17 @@
             "reutersCode": "379800",
             "stockName": "KODEX 미국S&P500",
             "sosok": "0",
-            "closePrice": "22,415",
-            "compareToPreviousClosePrice": "-725",
+            "closePrice": "22,565",
+            "compareToPreviousClosePrice": "150",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-3.13",
+            "fluctuationsRatio": "0.67",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "10,277,277",
+            "marketValue": "10,373,130",
             "nav": "0",
             "threeMonthEarningRate": "0",
             "stockExchangeType": {
@@ -2434,17 +2434,17 @@
             "reutersCode": "379810",
             "stockName": "KODEX 미국나스닥100",
             "sosok": "0",
-            "closePrice": "24,050",
-            "compareToPreviousClosePrice": "-875",
+            "closePrice": "24,245",
+            "compareToPreviousClosePrice": "195",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-3.51",
+            "fluctuationsRatio": "0.81",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "9,212,352",
+            "marketValue": "9,306,443",
             "nav": "0",
             "threeMonthEarningRate": "0",
             "stockExchangeType": {
@@ -2475,7 +2475,7 @@
           "itemCode": "458250",
           "bizdate": "20261106",
           "foreignerPureBuyQuant": "+24,052",
-          "foreignerHoldRatio": "0.22%",
+          "foreignerHoldRatio": "0.00%",
           "organPureBuyQuant": "-18,679",
           "individualPureBuyQuant": "-4,923",
           "closePrice": "34,815",
@@ -2649,12 +2649,12 @@
           {
             "code": "lastClosePrice",
             "key": "전일",
-            "value": "111"
+            "value": "125"
           },
           {
             "code": "openPrice",
             "key": "시가",
-            "value": "130",
+            "value": "127",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
@@ -2664,7 +2664,7 @@
           {
             "code": "highPrice",
             "key": "고가",
-            "value": "132",
+            "value": "130",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
@@ -2674,22 +2674,22 @@
           {
             "code": "lowPrice",
             "key": "저가",
-            "value": "118",
+            "value": "119",
             "compareToPreviousPrice": {
-              "code": "2",
-              "text": "상승",
-              "name": "RISING"
+              "code": "5",
+              "text": "하락",
+              "name": "FALLING"
             }
           },
           {
             "code": "accumulatedTradingVolume",
             "key": "거래량",
-            "value": "20,138,715,461"
+            "value": "13,783,877,413"
           },
           {
             "code": "accumulatedTradingValue",
             "key": "대금",
-            "value": "2조 5,080억"
+            "value": "1조 6,970억"
           },
           {
             "code": "highPriceOf52Weeks",
@@ -2704,7 +2704,7 @@
           {
             "code": "oneMonthEarnRate",
             "key": "최근 1개월 수익률",
-            "value": "+60.87%",
+            "value": "+78.57%",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
@@ -2714,7 +2714,7 @@
           {
             "code": "threeMonthEarnRate",
             "key": "최근 3개월 수익률",
-            "value": "+27.59%",
+            "value": "+30.21%",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
@@ -2724,7 +2724,7 @@
           {
             "code": "sixMonthEarnRate",
             "key": "최근 6개월 수익률",
-            "value": "-26.97%",
+            "value": "-3.10%",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
@@ -2734,7 +2734,7 @@
           {
             "code": "oneYearEarnRate",
             "key": "최근 1년 수익률",
-            "value": "-84.88%",
+            "value": "-82.78%",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
@@ -2744,7 +2744,7 @@
           {
             "code": "nav",
             "key": "NAV",
-            "value": "125.56"
+            "value": "122.98"
           },
           {
             "code": "fundPay",
@@ -2775,23 +2775,23 @@
         "description": "투자신탁의 순자산가치의 일간변동률을 F-KOSPI200 지수의 일별 수익률의 음 2배수(-2배수)의 수익률로 추적하고자 하는 운용목적을 달성하기 위하여 KOSPI200 지수 관련 파생상품 및 집합투자기구 등으로 포트폴리오를 구성하고, 필요에 따라 증권의 차입 등 기타 효율적인 방법을 활용할 예정입니다. <br>※ F-KOSPI200 지수란 KOSPI200지수선물의 가격수준을 종합적으로 표시하는 지수로서 한국거래소(KRX)에서 산출 발표하는 주가 선물 지수입니다. 기초지수 일별 수익률의 음(陰)의 2배수로 추종함에 있어 그 운용 방법은 KOSPI200지수 관련 장내선물 및 합성선물의 매도포지션으로 운용할 수 있습니다. 또한, 증권의 차입 매도 등 기타 효율적인 방법을 통하여 투자목적을 달성할 예정입니다.",
         "etfKeyIndicator": {
           "issuerName": "삼성자산운용(ETF)",
-          "marketValue": "1조 1,503억",
+          "marketValue": "1조 1,048억",
           "dividendYieldTtm": 0.0,
-          "totalNav": "1조 224억",
-          "nav": "111.10",
+          "totalNav": "1조 1,278억",
+          "nav": "125.56",
           "deviationSign": "-",
-          "deviationRate": 0.09,
+          "deviationRate": 0.45,
           "totalFee": 0.64,
-          "returnRate1m": 60.87,
-          "returnRate3m": 27.59,
-          "returnRate1y": -84.88
+          "returnRate1m": 78.57,
+          "returnRate3m": 30.21,
+          "returnRate1y": -82.78
         },
         "dealTrendInfos": [
           {
             "itemCode": "252670",
             "bizdate": "20261106",
             "foreignerPureBuyQuant": "+107,019,104",
-            "foreignerHoldRatio": "6.61%",
+            "foreignerHoldRatio": "4.82%",
             "organPureBuyQuant": "+309,123,572",
             "individualPureBuyQuant": "-421,585,116",
             "closePrice": "125",
@@ -2878,17 +2878,17 @@
             "reutersCode": "360750",
             "stockName": "TIGER 미국S&P500",
             "sosok": "0",
-            "closePrice": "24,755",
-            "compareToPreviousClosePrice": "-775",
+            "closePrice": "24,895",
+            "compareToPreviousClosePrice": "140",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-3.04",
+            "fluctuationsRatio": "0.57",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "20,533,034",
+            "marketValue": "20,686,500",
             "nav": "0",
             "threeMonthEarningRate": "0",
             "stockExchangeType": {
@@ -2916,17 +2916,17 @@
             "reutersCode": "069500",
             "stockName": "KODEX 200",
             "sosok": "0",
-            "closePrice": "79,005",
-            "compareToPreviousClosePrice": "-5,605",
+            "closePrice": "79,900",
+            "compareToPreviousClosePrice": "895",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-6.62",
+            "fluctuationsRatio": "1.13",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "19,506,334",
+            "marketValue": "19,787,235",
             "nav": "0",
             "threeMonthEarningRate": "0",
             "stockExchangeType": {
@@ -2954,17 +2954,17 @@
             "reutersCode": "488770",
             "stockName": "KODEX 머니마켓액티브",
             "sosok": "0",
-            "closePrice": "106,085",
-            "compareToPreviousClosePrice": "25",
+            "closePrice": "106,095",
+            "compareToPreviousClosePrice": "10",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
               "name": "RISING"
             },
-            "fluctuationsRatio": "0.02",
+            "fluctuationsRatio": "0.01",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "12,427,009",
+            "marketValue": "12,405,051",
             "nav": "0",
             "threeMonthEarningRate": "0",
             "stockExchangeType": {
@@ -2992,17 +2992,17 @@
             "reutersCode": "133690",
             "stockName": "TIGER 미국나스닥100",
             "sosok": "0",
-            "closePrice": "161,300",
-            "compareToPreviousClosePrice": "-5,565",
+            "closePrice": "162,295",
+            "compareToPreviousClosePrice": "995",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-3.34",
+            "fluctuationsRatio": "0.62",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "10,934,527",
+            "marketValue": "11,018,207",
             "nav": "0",
             "threeMonthEarningRate": "0",
             "stockExchangeType": {
@@ -3030,17 +3030,17 @@
             "reutersCode": "379800",
             "stockName": "KODEX 미국S&P500",
             "sosok": "0",
-            "closePrice": "22,415",
-            "compareToPreviousClosePrice": "-725",
+            "closePrice": "22,565",
+            "compareToPreviousClosePrice": "150",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-3.13",
+            "fluctuationsRatio": "0.67",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "10,277,277",
+            "marketValue": "10,373,130",
             "nav": "0",
             "threeMonthEarningRate": "0",
             "stockExchangeType": {
@@ -3068,17 +3068,17 @@
             "reutersCode": "379810",
             "stockName": "KODEX 미국나스닥100",
             "sosok": "0",
-            "closePrice": "24,050",
-            "compareToPreviousClosePrice": "-875",
+            "closePrice": "24,245",
+            "compareToPreviousClosePrice": "195",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-3.51",
+            "fluctuationsRatio": "0.81",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "9,212,352",
+            "marketValue": "9,306,443",
             "nav": "0",
             "threeMonthEarningRate": "0",
             "stockExchangeType": {
@@ -3109,7 +3109,7 @@
           "itemCode": "252670",
           "bizdate": "20261106",
           "foreignerPureBuyQuant": "+107,019,104",
-          "foreignerHoldRatio": "6.61%",
+          "foreignerHoldRatio": "4.82%",
           "organPureBuyQuant": "+309,123,572",
           "individualPureBuyQuant": "-421,585,116",
           "closePrice": "125",
@@ -3283,32 +3283,32 @@
           {
             "code": "lastClosePrice",
             "key": "전일",
-            "value": "69,600"
+            "value": "62,100"
           },
           {
             "code": "openPrice",
             "key": "시가",
-            "value": "64,800",
+            "value": "64,500",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             }
           },
           {
             "code": "highPrice",
             "key": "고가",
-            "value": "65,600",
+            "value": "65,900",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             }
           },
           {
             "code": "lowPrice",
             "key": "저가",
-            "value": "57,400",
+            "value": "60,400",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
@@ -3318,22 +3318,22 @@
           {
             "code": "accumulatedTradingVolume",
             "key": "거래량",
-            "value": "1,375,443"
+            "value": "599,899"
           },
           {
             "code": "accumulatedTradingValue",
             "key": "대금",
-            "value": "857억"
+            "value": "381억"
           },
           {
             "code": "marketValue",
             "key": "시총",
-            "value": "4조 7,422억"
+            "value": "4조 8,156억"
           },
           {
             "code": "foreignRate",
             "key": "외인소진율",
-            "value": "16.80%"
+            "value": "17.13%"
           },
           {
             "code": "highPriceOf52Weeks",
@@ -3348,7 +3348,7 @@
           {
             "code": "per",
             "key": "PER",
-            "value": "23.59배",
+            "value": "23.96배",
             "valueDesc": "2026.06."
           },
           {
@@ -3360,7 +3360,7 @@
           {
             "code": "cnsPer",
             "key": "추정PER",
-            "value": "17.27배"
+            "value": "17.54배"
           },
           {
             "code": "cnsEps",
@@ -3370,7 +3370,7 @@
           {
             "code": "pbr",
             "key": "PBR",
-            "value": "5.52배",
+            "value": "5.61배",
             "valueDesc": "2026.06."
           },
           {
@@ -3382,7 +3382,7 @@
           {
             "code": "dividendYieldRatio",
             "key": "배당수익률",
-            "value": "0.36%",
+            "value": "0.35%",
             "valueDesc": "2026.03."
           },
           {
@@ -3400,7 +3400,7 @@
             "itemCode": "007660",
             "bizdate": "20261106",
             "foreignerPureBuyQuant": "+174,340",
-            "foreignerHoldRatio": "17.04%",
+            "foreignerHoldRatio": "17.13%",
             "organPureBuyQuant": "-184,611",
             "individualPureBuyQuant": "+10,033",
             "closePrice": "64,600",
@@ -3484,7 +3484,7 @@
             "nm": "이수페타시스",
             "bnm": "키움증권",
             "tit": "3Q는 무난, 4Q부터 폭발. 멀리보면 더 매력적인 기업",
-            "rcnt": "8493",
+            "rcnt": "8942",
             "wdt": "20261012"
           },
           {
@@ -3493,7 +3493,7 @@
             "nm": "이수페타시스",
             "bnm": "유안타증권",
             "tit": "3Q26 Pre: 적층되는 성장 동력",
-            "rcnt": "16656",
+            "rcnt": "16895",
             "wdt": "20261008"
           },
           {
@@ -3502,7 +3502,7 @@
             "nm": "이수페타시스",
             "bnm": "신한투자증권",
             "tit": "반등이 보이는 이유",
-            "rcnt": "22413",
+            "rcnt": "22628",
             "wdt": "20260922"
           },
           {
@@ -3511,7 +3511,7 @@
             "nm": "이수페타시스",
             "bnm": "유안타증권",
             "tit": "캐파와 믹스, 이제는 P 사이클까지",
-            "rcnt": "17118",
+            "rcnt": "17225",
             "wdt": "20260825"
           },
           {
@@ -3520,7 +3520,7 @@
             "nm": "이수페타시스",
             "bnm": "하나증권",
             "tit": "Capa 확대, 판가 인상과 믹스 개선의 콜라보",
-            "rcnt": "14611",
+            "rcnt": "14776",
             "wdt": "20260819"
           }
         ],
@@ -3533,17 +3533,17 @@
             "reutersCode": "005930",
             "stockName": "삼성전자",
             "sosok": "0",
-            "closePrice": "193,500",
-            "compareToPreviousClosePrice": "-8,000",
+            "closePrice": "192,300",
+            "compareToPreviousClosePrice": "3,600",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-3.97",
+            "fluctuationsRatio": "1.91",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "1,131,254,910",
+            "marketValue": "1,124,239,376",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -3571,17 +3571,17 @@
             "reutersCode": "000660",
             "stockName": "SK하이닉스",
             "sosok": "0",
-            "closePrice": "1,176,000",
-            "compareToPreviousClosePrice": "-88,000",
+            "closePrice": "1,168,000",
+            "compareToPreviousClosePrice": "36,000",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-6.96",
+            "fluctuationsRatio": "3.18",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "859,059,021",
+            "marketValue": "853,215,082",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -3609,17 +3609,17 @@
             "reutersCode": "402340",
             "stockName": "SK스퀘어",
             "sosok": "0",
-            "closePrice": "752,000",
-            "compareToPreviousClosePrice": "-57,000",
+            "closePrice": "736,000",
+            "compareToPreviousClosePrice": "12,000",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-7.05",
+            "fluctuationsRatio": "1.66",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "99,206,846",
+            "marketValue": "97,096,062",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -3647,17 +3647,17 @@
             "reutersCode": "042700",
             "stockName": "한미반도체",
             "sosok": "0",
-            "closePrice": "163,300",
-            "compareToPreviousClosePrice": "-5,800",
+            "closePrice": "165,300",
+            "compareToPreviousClosePrice": "3,900",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-3.43",
+            "fluctuationsRatio": "2.42",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "15,564,482",
+            "marketValue": "15,755,106",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -3685,17 +3685,17 @@
             "reutersCode": "036930",
             "stockName": "주성엔지니어링",
             "sosok": "1",
-            "closePrice": "137,400",
-            "compareToPreviousClosePrice": "-9,300",
+            "closePrice": "146,700",
+            "compareToPreviousClosePrice": "13,900",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-6.34",
+            "fluctuationsRatio": "10.47",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "6,386,506",
+            "marketValue": "6,818,780",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -3719,45 +3719,45 @@
           {
             "stockType": "domestic",
             "stockEndType": "stock",
-            "itemCode": "000990",
-            "reutersCode": "000990",
-            "stockName": "DB하이텍",
-            "sosok": "0",
-            "closePrice": "85,800",
-            "compareToPreviousClosePrice": "1,100",
+            "itemCode": "039030",
+            "reutersCode": "039030",
+            "stockName": "이오테크닉스",
+            "sosok": "1",
+            "closePrice": "310,000",
+            "compareToPreviousClosePrice": "26,500",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
               "name": "RISING"
             },
-            "fluctuationsRatio": "1.30",
+            "fluctuationsRatio": "9.35",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "3,732,693",
+            "marketValue": "3,819,060",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
-              "code": "KS",
+              "code": "KQ",
               "zoneId": "Asia/Seoul",
               "nationType": "KOR",
               "delayTime": 0,
               "startTime": "0900",
               "endTime": "1530",
               "closePriceSendTime": "1630",
-              "nameKor": "코스피",
-              "nameEng": "KOSPI",
+              "nameKor": "코스닥",
+              "nameEng": "KOSDAQ",
               "stockType": "domestic",
               "nationCode": "KOR",
               "nationName": "대한민국",
-              "name": "KOSPI"
+              "name": "KOSDAQ"
             },
-            "endUrl": "https://m.stock.naver.com/domestic/stock/000990",
-            "newPcUrl": "https://stock.naver.com/domestic/stock/000990"
+            "endUrl": "https://m.stock.naver.com/domestic/stock/039030",
+            "newPcUrl": "https://stock.naver.com/domestic/stock/039030"
           }
         ],
         "consensusInfo": {
           "itemCode": "007660",
-          "createDate": "2026-11-05",
+          "createDate": "2026-11-06",
           "recommMean": "4.00",
           "priceTargetMean": "175,000"
         },
@@ -3769,7 +3769,7 @@
           "itemCode": "007660",
           "bizdate": "20261106",
           "foreignerPureBuyQuant": "+174,340",
-          "foreignerHoldRatio": "17.04%",
+          "foreignerHoldRatio": "17.13%",
           "organPureBuyQuant": "-184,611",
           "individualPureBuyQuant": "+10,033",
           "closePrice": "64,600",
@@ -4214,7 +4214,7 @@
                   "cx": null
                 },
                 "202612": {
-                  "value": "18.61",
+                  "value": "16.61",
                   "cx": null
                 },
                 "202312": {
@@ -4256,7 +4256,7 @@
                   "cx": null
                 },
                 "202612": {
-                  "value": "5.03",
+                  "value": "4.49",
                   "cx": null
                 },
                 "202312": {
