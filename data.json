@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11 17:32",
+  "updated": "2026-11-11 18:54",
   "stocks": {
     "005010": {
       "integ": {
@@ -46,17 +46,17 @@
           {
             "code": "accumulatedTradingVolume",
             "key": "거래량",
-            "value": "88,740"
+            "value": "89,521"
           },
           {
             "code": "accumulatedTradingValue",
             "key": "대금",
-            "value": "3.1억"
+            "value": "3.13억"
           },
           {
             "code": "marketValue",
             "key": "시총",
-            "value": "1,967억"
+            "value": "1,958억"
           },
           {
             "code": "foreignRate",
@@ -251,17 +251,17 @@
             "reutersCode": "004020",
             "stockName": "현대제철",
             "sosok": "0",
-            "closePrice": "28,850",
-            "compareToPreviousClosePrice": "150",
+            "closePrice": "28,800",
+            "compareToPreviousClosePrice": "100",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
               "name": "RISING"
             },
-            "fluctuationsRatio": "0.52",
+            "fluctuationsRatio": "0.35",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "3,849,910",
+            "marketValue": "3,843,238",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -327,17 +327,17 @@
             "reutersCode": "016380",
             "stockName": "KG스틸",
             "sosok": "0",
-            "closePrice": "4,890",
-            "compareToPreviousClosePrice": "-20",
+            "closePrice": "4,925",
+            "compareToPreviousClosePrice": "15",
             "compareToPreviousPrice": {
-              "code": "5",
-              "text": "하락",
-              "name": "FALLING"
+              "code": "2",
+              "text": "상승",
+              "name": "RISING"
             },
-            "fluctuationsRatio": "-0.41",
+            "fluctuationsRatio": "0.31",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "489,043",
+            "marketValue": "492,543",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -1019,17 +1019,17 @@
           {
             "code": "accumulatedTradingVolume",
             "key": "거래량",
-            "value": "2,571,606"
+            "value": "2,648,761"
           },
           {
             "code": "accumulatedTradingValue",
             "key": "대금",
-            "value": "79.4억"
+            "value": "81.8억"
           },
           {
             "code": "marketValue",
             "key": "시총",
-            "value": "3조 1,762억"
+            "value": "3조 1,814억"
           },
           {
             "code": "foreignRate",
@@ -1061,7 +1061,7 @@
           {
             "code": "cnsPer",
             "key": "추정PER",
-            "value": "20.91배"
+            "value": "20.95배"
           },
           {
             "code": "cnsEps",
@@ -1183,7 +1183,7 @@
             "nm": "한온시스템",
             "bnm": "대신증권",
             "tit": "어제는 방어, 이제는 성장",
-            "rcnt": "1975",
+            "rcnt": "2001",
             "wdt": "20261109"
           },
           {
@@ -1192,7 +1192,7 @@
             "nm": "한온시스템",
             "bnm": "하나증권",
             "tit": "원가는 해냈고, 이제 수주의 차례",
-            "rcnt": "7849",
+            "rcnt": "7861",
             "wdt": "20261106"
           },
           {
@@ -1201,7 +1201,7 @@
             "nm": "한온시스템",
             "bnm": "미래에셋증권",
             "tit": "3Q26 리뷰: 비용절감 지속, 전기차 수혜주",
-            "rcnt": "6718",
+            "rcnt": "6726",
             "wdt": "20261106"
           },
           {
@@ -1210,7 +1210,7 @@
             "nm": "한온시스템",
             "bnm": "대신증권",
             "tit": "어제는 방어, 이제는 성장",
-            "rcnt": "1964",
+            "rcnt": "1970",
             "wdt": "20261106"
           },
           {
@@ -1219,7 +1219,7 @@
             "nm": "한온시스템",
             "bnm": "유진투자증권",
             "tit": "3Q26 Review: 신사업 가시화로 성장 동력 강화",
-            "rcnt": "1998",
+            "rcnt": "2004",
             "wdt": "20261106"
           }
         ],
@@ -1232,17 +1232,17 @@
             "reutersCode": "012330",
             "stockName": "현대모비스",
             "sosok": "0",
-            "closePrice": "354,500",
-            "compareToPreviousClosePrice": "3,000",
+            "closePrice": "354,000",
+            "compareToPreviousClosePrice": "2,500",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
               "name": "RISING"
             },
-            "fluctuationsRatio": "0.85",
+            "fluctuationsRatio": "0.71",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "31,841,397",
+            "marketValue": "31,796,487",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -1270,17 +1270,17 @@
             "reutersCode": "161390",
             "stockName": "한국타이어앤테크놀로지",
             "sosok": "0",
-            "closePrice": "61,900",
-            "compareToPreviousClosePrice": "-1,300",
+            "closePrice": "61,600",
+            "compareToPreviousClosePrice": "-1,600",
             "compareToPreviousPrice": {
               "code": "5",
               "text": "하락",
               "name": "FALLING"
             },
-            "fluctuationsRatio": "-2.06",
+            "fluctuationsRatio": "-2.53",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "7,667,866",
+            "marketValue": "7,630,704",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -1346,17 +1346,17 @@
             "reutersCode": "005850",
             "stockName": "에스엘",
             "sosok": "0",
-            "closePrice": "47,500",
-            "compareToPreviousClosePrice": "700",
+            "closePrice": "47,550",
+            "compareToPreviousClosePrice": "750",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
               "name": "RISING"
             },
-            "fluctuationsRatio": "1.50",
+            "fluctuationsRatio": "1.60",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "2,206,304",
+            "marketValue": "2,208,627",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -1422,17 +1422,17 @@
             "reutersCode": "073240",
             "stockName": "금호타이어",
             "sosok": "0",
-            "closePrice": "5,650",
-            "compareToPreviousClosePrice": "60",
+            "closePrice": "5,640",
+            "compareToPreviousClosePrice": "50",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
               "name": "RISING"
             },
-            "fluctuationsRatio": "1.07",
+            "fluctuationsRatio": "0.89",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "1,623,020",
+            "marketValue": "1,620,148",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -3299,7 +3299,7 @@
           {
             "code": "highPrice",
             "key": "고가",
-            "value": "82,800",
+            "value": "83,100",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
@@ -3319,17 +3319,17 @@
           {
             "code": "accumulatedTradingVolume",
             "key": "거래량",
-            "value": "2,000,280"
+            "value": "2,036,306"
           },
           {
             "code": "accumulatedTradingValue",
             "key": "대금",
-            "value": "1,580억"
+            "value": "1,609억"
           },
           {
             "code": "marketValue",
             "key": "시총",
-            "value": "6조 122억"
+            "value": "6조 1,003억"
           },
           {
             "code": "foreignRate",
@@ -3349,7 +3349,7 @@
           {
             "code": "per",
             "key": "PER",
-            "value": "29.91배",
+            "value": "30.35배",
             "valueDesc": "2026.06."
           },
           {
@@ -3361,7 +3361,7 @@
           {
             "code": "cnsPer",
             "key": "추정PER",
-            "value": "21.90배"
+            "value": "22.22배"
           },
           {
             "code": "cnsEps",
@@ -3371,7 +3371,7 @@
           {
             "code": "pbr",
             "key": "PBR",
-            "value": "7.00배",
+            "value": "7.10배",
             "valueDesc": "2026.06."
           },
           {
@@ -3485,7 +3485,7 @@
             "nm": "이수페타시스",
             "bnm": "키움증권",
             "tit": "3Q는 무난, 4Q부터 폭발. 멀리보면 더 매력적인 기업",
-            "rcnt": "9910",
+            "rcnt": "9946",
             "wdt": "20261012"
           },
           {
@@ -3494,7 +3494,7 @@
             "nm": "이수페타시스",
             "bnm": "유안타증권",
             "tit": "3Q26 Pre: 적층되는 성장 동력",
-            "rcnt": "17323",
+            "rcnt": "17331",
             "wdt": "20261008"
           },
           {
@@ -3503,7 +3503,7 @@
             "nm": "이수페타시스",
             "bnm": "신한투자증권",
             "tit": "반등이 보이는 이유",
-            "rcnt": "23008",
+            "rcnt": "23012",
             "wdt": "20260922"
           },
           {
@@ -3512,7 +3512,7 @@
             "nm": "이수페타시스",
             "bnm": "유안타증권",
             "tit": "캐파와 믹스, 이제는 P 사이클까지",
-            "rcnt": "17491",
+            "rcnt": "17495",
             "wdt": "20260825"
           },
           {
@@ -3521,7 +3521,7 @@
             "nm": "이수페타시스",
             "bnm": "하나증권",
             "tit": "Capa 확대, 판가 인상과 믹스 개선의 콜라보",
-            "rcnt": "14964",
+            "rcnt": "14967",
             "wdt": "20260819"
           }
         ],
@@ -3534,17 +3534,17 @@
             "reutersCode": "005930",
             "stockName": "삼성전자",
             "sosok": "0",
-            "closePrice": "206,500",
-            "compareToPreviousClosePrice": "7,600",
+            "closePrice": "207,000",
+            "compareToPreviousClosePrice": "8,100",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
               "name": "RISING"
             },
-            "fluctuationsRatio": "3.82",
+            "fluctuationsRatio": "4.07",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "1,207,256,532",
+            "marketValue": "1,210,179,671",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -3572,17 +3572,17 @@
             "reutersCode": "000660",
             "stockName": "SK하이닉스",
             "sosok": "0",
-            "closePrice": "1,280,000",
-            "compareToPreviousClosePrice": "68,000",
+            "closePrice": "1,288,000",
+            "compareToPreviousClosePrice": "76,000",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
               "name": "RISING"
             },
-            "fluctuationsRatio": "5.61",
+            "fluctuationsRatio": "6.27",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "935,030,227",
+            "marketValue": "940,874,166",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -3610,17 +3610,17 @@
             "reutersCode": "402340",
             "stockName": "SK스퀘어",
             "sosok": "0",
-            "closePrice": "799,000",
-            "compareToPreviousClosePrice": "39,000",
+            "closePrice": "805,000",
+            "compareToPreviousClosePrice": "45,000",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
               "name": "RISING"
             },
-            "fluctuationsRatio": "5.13",
+            "fluctuationsRatio": "5.92",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "105,407,274",
+            "marketValue": "106,198,818",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -3648,17 +3648,17 @@
             "reutersCode": "042700",
             "stockName": "한미반도체",
             "sosok": "0",
-            "closePrice": "184,200",
-            "compareToPreviousClosePrice": "10,800",
+            "closePrice": "185,900",
+            "compareToPreviousClosePrice": "12,500",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
               "name": "RISING"
             },
-            "fluctuationsRatio": "6.23",
+            "fluctuationsRatio": "7.21",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "17,556,507",
+            "marketValue": "17,718,537",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
@@ -3686,17 +3686,17 @@
             "reutersCode": "036930",
             "stockName": "주성엔지니어링",
             "sosok": "1",
-            "closePrice": "179,800",
-            "compareToPreviousClosePrice": "27,500",
+            "closePrice": "180,000",
+            "compareToPreviousClosePrice": "27,700",
             "compareToPreviousPrice": {
               "code": "2",
               "text": "상승",
               "name": "RISING"
             },
-            "fluctuationsRatio": "18.06",
+            "fluctuationsRatio": "18.19",
             "accumulatedTradingVolume": "-",
             "accumulatedTradingValue": "-",
-            "marketValue": "8,357,305",
+            "marketValue": "8,366,601",
             "nav": "N/A",
             "threeMonthEarningRate": "N/A",
             "stockExchangeType": {
